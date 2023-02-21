@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+.container{
+    width: 1340px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -15px;
+    padding: 0 15px;
+    align-items: center;
+}
+.flex-item1{
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item2{
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item3{
+    width: 25%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item4{
+    width: 33.33%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item5{
+    width: 41.66%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+   
+}
+.flex-item6{
+    width: 50%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+
+.flex-item7{
+    width: 58.33%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item8{
+    width: 66.66%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item9{
+    width: 75%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item10{
+    width: 83.33%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item11{
+    width: 91.66%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.flex-item12{
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 0 15px;
+}
+.header{
+    padding:20px 0;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.mentor{
+    color: #5fcf80;
+    font-weight: 800;
+    font-size: 35px;
+}
+.get a{
+    color: white;
+    border: 1px solid #5fcf80;
+    padding: 10px 36px;
+    background-color: #5fcf80;
+    border-radius: 30px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-bar li{
+    list-style-type: none;
+    font-size: 17px;
+}
+.nav-bar a{
+    color: #000;
+    text-decoration: none;
+}
+.banner{
+    /* background-color:red; */
+    padding: 80px 0;
+    background: url("../image/hero-bg.jpg") fixed;
+    background-size: cover;
+}
+.pic{
+    height: 450px;
+     display: flex;
+}
+
+.learning {
+    height: 200px;
+    margin-top: 150px;
+    font-size: 30px;
+    color: white;
+}
+.learning a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 36px;
+    border-radius: 30px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.one{
+    padding: 60px 0;
+}
+.one1{
+    height: 400px;
+    margin-left: 5px;
+    font-size: 23px;
+}
+.one1 i{
+    color: #5fcf80;
+    border: 2px solid #5fcf80;
+    border-radius: 50%;
+    width: 30px;
+}
+.one1 ul{
+    text-decoration: none;
+}
+.one1 li{
+    list-style-type: none;
+}
+.one2{
+    background-image: url("../image/about.jpg");
+    background-size: cover;
+    background-color: red;
+    height: 400px;
+    margin-left: 5px;
+}
+.two{
+    background-color: #f6f7f6;
+    padding: 35px 0;
+    display: flex;
+}
+.two1 h1{
+    color: #5fcf80;
+    justify-content: center;
+}
+.two1{
+      margin-left: 73px;
+      margin-right: 63px;
+      background-color: #f6f7f6;
+      height: 110px;
+      padding-left: 35px;
+      padding-top: 25px;
+      font-size: 24px;
+      font-weight: 700px;
+}
+.three{
+    padding: 80px 0;
+}
+.three a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 36px;
+    border-radius: 30px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.three1{
+    background-color: #5fcf80;
+    height: 350px;
+    font-size: 20px;
+    padding: 20px;
+}
+.three3{
+    padding-top: 20px;
+}
+.three3 .three2{
+    border: 1px solid #eef0ef;
+    height: 270px;
+}
+.four{
+    background-color: red;
+    padding: 80px 0;
+}
+.four1{
+    height: 100px;
+    background-color: black;
+    margin-top: 20px;
+}
+.five{
+    background-color: black;
+    padding: 80px 0;
+}
+.five1{
+    height: 50px;
+    background-color: red;
+}
+.five2{
+    margin-top: 20px;
+    height: 50px;
+    background-color: red;
+}
+.five3{
+    margin-top: 40px;
+    height: 550px;
+    background-color: red;
+}
+.five4{
+    margin-top: 100px;
+    height: 550px;
+    background-color: red;
+}
+.six{
+    background-color: red;
+    padding: 80px 0;
+}
+.six1{
+    margin-top: 40px;
+    background-color: black;
+    height:270px;
+}
+.six2{
+    margin-top: 40px;
+    background-color: black;
+    height:200px;
+}
+.seven{
+     background-color: black;
+    padding: 80px 0;
+}
+.seven1{
+    height: 80px;
+    background-color: red;
+}
+.seven .flex-container{
+    justify-content: space-between;
+}
