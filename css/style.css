@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +17,7 @@
 }
 body{
     background-color:white;
+    
 }
 .container{
     width: 1340px;
@@ -80,6 +93,21 @@ body{
     flex: 0 0 auto;
     padding: 0 15px;
 }
+.arrow i{
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #29cc61;
+    background-color: #29cc61;
+    border-radius: 50%;
+    align-items: center;
+    padding: 8px 10px;
+    position: fixed;
+    top: 690px;
+    left: 97%;
+    font-size: 20px;
+
+}
 .header{
     padding:20px 0;
     position: fixed;
@@ -90,6 +118,7 @@ body{
     color: #5fcf80;
     font-weight: 800;
     font-size: 35px;
+    font-family: 'Poppins', sans-serif;
 }
 .get a{
     color: white;
@@ -102,22 +131,34 @@ body{
 }
 .nav-bar ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 
 }
 .nav-bar li{
     list-style-type: none;
-    font-size: 17px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-bar a{
     color: #000;
     text-decoration: none;
+    padding-left: 20px;
+}
+.nav-bar a:hover{
+    color: #29cc61;
 }
 .banner{
     /* background-color:red; */
     padding: 80px 0;
     background: url("../image/hero-bg.jpg") fixed;
     background-size: cover;
+}
+.banner h1{
+    font-family: 'Poppins', sans-serif;
+}
+.banner p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
 }
 .pic{
     height: 450px;
@@ -138,26 +179,48 @@ body{
     font-size: 17px;
     text-decoration: none;
 }
+.learning a:hover{
+    border: 1px solid #29cc61;
+    background-color: #29cc61;
+    color: white;
+}
 
 .one{
     padding: 60px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.one h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 900;
+}
+.one1 p{
+    font-size: 14px;
+    color: #7a7a7a;
+    
 }
 .one1{
     height: 400px;
     margin-left: 5px;
-    font-size: 23px;
+    font-size: 18px;
 }
 .one1 i{
     color: #5fcf80;
-    border: 2px solid #5fcf80;
-    border-radius: 50%;
-    width: 30px;
+    font-weight:lighter;
+    font-size: 30px;
+    transform: translateY(0px);
+    padding-right: 4px
 }
 .one1 ul{
     text-decoration: none;
 }
 .one1 li{
     list-style-type: none;
+    font-style: normal;
+    color: #7a7a7a;
+    font-size: 16px;
 }
 .one2{
     background-image: url("../image/about.jpg");
@@ -169,11 +232,20 @@ body{
 .two{
     background-color: #f6f7f6;
     padding: 35px 0;
+    padding-bottom: 60px;
     display: flex;
 }
 .two1 h1{
     color: #5fcf80;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.two1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 }
 .two1{
       margin-left: 73px;
@@ -184,84 +256,417 @@ body{
       padding-top: 25px;
       font-size: 24px;
       font-weight: 700px;
+      text-align: center;
 }
 .three{
     padding: 80px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
-.three a{
+.three4 a{
     color: white;
     border: 1px solid white;
     padding: 10px 36px;
     border-radius: 30px;
     font-size: 17px;
     text-decoration: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+.three4 a:hover{
+    color: #29cc61;
+    background-color: white;
 }
 .three1{
     background-color: #5fcf80;
-    height: 350px;
+    color: white;
+    height: 380px;
     font-size: 20px;
     padding: 20px;
+}
+.three1 h1{
+    font-weight: 900;
 }
 .three3{
     padding-top: 20px;
 }
 .three3 .three2{
     border: 1px solid #eef0ef;
-    height: 270px;
+    height: 316px;
+    text-align: center;
+    padding: 40px;
+}
+.three-sub i{
+
+    font-size: 32px;
+    padding: 18px;
+    color: #5fcf80;
+    margin-bottom: 30px;
+    background: #ecf9f0;
+    border-radius: 50px;
 }
 .four{
-    background-color: red;
-    padding: 80px 0;
+    padding: 0px 0px 60px 0px;
+    display: flex;
+}
+
+.four a{
+    text-decoration: none;
+    color: #000;
 }
 .four1{
-    height: 100px;
-    background-color: black;
+    height: 80px;
+    border: 1px solid #eef0ef;
     margin-top: 20px;
+    font-size: 20px;
+    padding: 24px;
 }
+.four1:hover{
+    border: 1px solid #29cc61;
+}
+.four1 a:hover{
+    color: #29cc61;
+}
+.fa-building-o{
+    padding-right: 10px;
+    color: yellow;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-bar-chart{
+    padding-right: 10px;
+    color: #5578ff;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-calendar{
+    padding-right: 10px;
+    color: #e80368;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-paint-brush{
+    padding-right: 10px;
+    color: #e361ff;
+    font-size: 26px;
+    font-weight: 900;
+}
+.fa-database{
+    padding-right: 10px;
+    color: #47aeff;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-crosshairs{
+    padding-right: 10px;
+    color: #ffa76e;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-file{
+    padding-right: 10px;
+    color: #11dbcf;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-tag{
+    padding-right: 10px;
+    color: #4233ff;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-anchor{
+    padding-right: 10px;
+    color: #b2904f;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-music{
+    padding-right: 10px;
+    color: #b20969;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-signal{
+    padding-right: 10px;
+    color: #ff5828;
+    font-size: 26px;
+    font-weight: 900;
+} 
+
+.fa-print{
+    padding-right: 10px;
+    color: #29cc61;
+    font-size: 26px;
+    font-weight: 900;
+} 
 .five{
-    background-color: black;
-    padding: 80px 0;
+    padding: 60px 0;
+}
+.fiveall{
+    margin-left: -15px;
+    margin-top: 10px;
+    height: 50px;
+}
+.five-all1{
+    height: 87px;
+}
+.five-all1 a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.five-all1 a:hover{
+    color: #29cc61;
+}
+.five-all1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #777777;
+    padding-top: 10px;
+}
+.five-all1 p hr{
+    color:#eef0ef;
+}
+.five-all2{
+    padding: 10px;
+    height: 100px;
+}
+.five-sub2 img{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+}
+.five-sub{
+    font-size: 11px;
+    background: #5fcf80;
+    padding:9px 14px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.five-sub1{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 89px;
+    font-size: 15px;
+}
+.fiveall .five-sub5{
+    font-size: 11px;
+    background: #5fcf80;
+    padding:9px 14px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.fiveall .five-sub6{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 187px;
+    font-size: 15px;
+}
+.fiveall .five-sub7{
+    font-size: 11px;
+    background: #5fcf80;
+    padding:9px 14px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.fiveall .five-sub8{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 187px;
+    font-size: 15px;
 }
 .five1{
-    height: 50px;
-    background-color: red;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.five3 img{
+    width: 100%;
+}
+.fiveall{
+    display: flex;
+}
+.five-all2 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.five-all2{
+    display: flex;
+}
+.five-all2 h3{
+    line-height: 66px;
+    padding-left: 20px;
+}
+.five-all2 .space{
+    padding-left: 135px;
+}
+.five-all2 i{
+    padding-right: 8px;
 }
 .five2{
-    margin-top: 20px;
+    margin-top: 10px;
     height: 50px;
-    background-color: red;
+}
+.five2 p{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #37423b;
 }
 .five3{
     margin-top: 40px;
-    height: 550px;
-    background-color: red;
+    height: 516px;
+    border: 1px solid #eef0ef;
 }
 .five4{
     margin-top: 100px;
-    height: 550px;
-    background-color: red;
+    height: 600px;
+    border: 1px solid #eef0ef;
+}
+.five4 img{
+    width: 100%;
+    height: 380px;
+}
+.five4-sub h3{
+    padding-bottom: 10px;
+    color: #000;
+}
+.five4-sub h4{
+    font-size: 15px;
+    font-weight: 100;
+    color: #000;
+}
+.five4-sub{
+    text-align: center;
+    padding: 11px 33px;
+    font-size: 17px;
+    color: #aaaaaa;
+}
+
+.five4-sub i{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #7e9486;
+}
+.five4-sub i:hover{
+    color: #29cc61;
 }
 .six{
-    background-color: red;
+    background: #f9faf9;
     padding: 80px 0;
 }
 .six1{
-    margin-top: 40px;
-    background-color: black;
-    height:270px;
+    margin-top: -70px;
+    height:200px;
+    text-align: left;
+    font-size: 16px;
+    padding: 30px;
+    font-family: "Raleway", sans-serif;
+}
+.six1 h3{
+    padding-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.six1 p{
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+}
+.six1 ul{
+    list-style-type: none;
+}
+.six1 li{
+    padding-top: 15px;
+    
+}
+.six1 li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+}
+.six1 a:hover{
+    color: #29cc61;
+}
+.six1 i{
+    color: #29cc61;
+    padding-right: 8px;
 }
 .six2{
-    margin-top: 40px;
-    background-color: black;
+    margin-top: -11px;
     height:200px;
+    font-family: "Raleway", sans-serif;
+}
+.six2 h3{
+    padding-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.six2 p{
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+}
+.six2 a{
+    color: white;
+    background-color: #29cc61;
+    border: 1px solid #29cc61;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-left: -28px;
+    text-decoration: none;
+    
+}
+.six2 input{
+    border: 1px solid #eef0ef;
+    border-radius: 20px;
+    padding: 6px 15px;
 }
 .seven{
-     background-color: black;
-    padding: 80px 0;
+    background: #eef0ef;
+    padding: 8px 0;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .seven1{
     height: 80px;
-    background-color: red;
+    background: #eef0ef;
+    padding: 20px;
+}
+.seven1 a{
+    color: #29cc61;
+    text-decoration: none;
+    
+}
+.seven2{
+    padding-left: 356px;
+}
+
+.seven2 i{
+    color: white;
+    width: 40px;
+    height: 40px;
+    background-color: #29cc61;
+    border: 1px solid #29cc61;
+    border-radius: 50%;
+    padding: 11px 12px;
+    margin-left: 10px;
+
 }
 .seven .flex-container{
     justify-content: space-between;
