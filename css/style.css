@@ -305,9 +305,7 @@ body{
 .three1 h1{
     font-weight: 900;
 }
-.three3{
-    padding-top: 20px;
-}
+
 .three3 .three2{
     border: 1px solid #eef0ef;
     height: 316px;
@@ -671,19 +669,21 @@ body{
     color: #777777;
 }
 .six2 a{
+   
     color: white;
     background-color: #29cc61;
     border: 1px solid #29cc61;
     border-radius: 20px;
-    padding: 6px 14px;
-    margin-left: -28px;
+    padding: 0 14px;
+    margin-left: -36px;
     text-decoration: none;
-    
+    padding-top: 6px;
+    padding-bottom: 8px;
 }
 .six2 input{
     border: 1px solid #eef0ef;
     border-radius: 20px;
-    padding: 9px 15px;
+    padding: 9px 25px;
 }
 .seven{
     background: #eef0ef;
