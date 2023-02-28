@@ -106,6 +106,7 @@ body{
     top: 690px;
     left: 97%;
     font-size: 20px;
+    font-weight: 100;
 
 }
 .header{
@@ -160,9 +161,8 @@ body{
     background-color: #3ac162;
 }
 .banner{
-    /* background-color:red; */
     padding: 80px 0;
-    background: linear-gradient(to top, #00000014, #07060696, #07060696), url(../image/hero-bg.jpg) fixed;
+    background: linear-gradient( #07060696, #07060696), url(../image/hero-bg.jpg) fixed;
     background-size: cover;
 }
 .banner h1{
@@ -520,6 +520,14 @@ body{
     color: #aaaaaa;
     font-family: "Poppins", sans-serif;
 }
+.five1 h2::after{
+    content: "";
+    width: 130px;
+    height: 1px;
+    display: inline-block;
+    background: #29cc61;
+    margin: 4px 10px;
+}
 .five3 img{
     width: 100%;
 }
@@ -540,7 +548,13 @@ body{
     padding-left: 20px;
     color: #5a6c60;
     font-weight: 600;
-
+}
+.five-all2 .all3{
+    line-height: 66px;
+    padding-left: 20px;
+    color: #5a6c60;
+    font-weight: 600;
+    padding-right: 29px;
 }
 .five-all2 .space{
     padding-left: 105px;
@@ -584,7 +598,7 @@ body{
 }
 .five4-sub h4{
     font-size: 13px;
-    font-weight: 100;
+    font-weight: 400;
     color: #000;
     font-family: 'Open Sans', sans-serif;
 }
