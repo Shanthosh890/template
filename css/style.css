@@ -435,6 +435,7 @@ body{
 .fiveall{
     display: flex;
     padding: 10px 0 10px 5px;
+    justify-content: space-between;
 }
 
 .five-all1 a{
@@ -471,10 +472,10 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-.five-sub1{
+.five-sub1 h1{
     font-family: 'Open Sans', sans-serif;
-    padding-left: 89px;
-    font-size: 15px;
+    font-size: 23px;
+    font-weight: 600;
 }
 .fiveall .five-sub5{
     font-size: 11px;
@@ -484,11 +485,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-.fiveall .five-sub6{
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 187px;
-    font-size: 15px;
-}
+
 .fiveall .five-sub7{
     font-size: 11px;
     background: #5fcf80;
@@ -497,11 +494,7 @@ body{
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-.fiveall .five-sub8{
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 187px;
-    font-size: 15px;
-}
+
 .five1{
     font-size: 14px;
     font-weight: 500;
@@ -696,8 +689,71 @@ body{
     border-radius: 50%;
     padding: 11px 12px;
     margin-left: 10px;
-
+}
+.seven2{
+    line-height: 90px;
 }
 .seven .flex-container{
     justify-content: space-between;
+}
+.list .drop1 .drop2{
+    display: block;
+}
+.list .drop1{
+    position: relative;
+}
+.list .drop1 .drop2{
+    position: absolute;
+    top: 3px;
+    left: 13px;
+    width: 180px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 1px black;
+}
+.list .drop1 .drop2 a{
+    display: inline-block;
+    padding: 15px 0;
+}
+.drop2 i{
+    padding-left: 12px;
+}
+.drop1 .drop2{
+    visibility: hidden;
+    transform:translateY(30px);
+    transition: all 0.2s ease;
+}
+.drop1:hover .drop2{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(30px);
+}
+.drop2 .drop3{
+    display: block;
+}
+.drop2 .drop3{
+    position: relative;
+}
+.drop2 .drop3{
+    position: absolute;
+    top: 52px;
+    left: 179px;
+    width: 180px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 1px black;
+}
+.drop2 .drop3 a{
+    display: inline-block;
+    padding: 15px 0;   
+}
+.drop4 .drop3{
+    visibility: hidden;
+    transform:translateY(30px);
+    transition: all 0.2s ease;
+}
+.drop4:hover .drop3{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(30px);
 }
